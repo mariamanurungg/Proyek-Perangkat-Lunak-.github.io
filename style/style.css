@@ -1,0 +1,177 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #f7fcff, #edfcff, #e1fdff, #d5feff, #caffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-weight: 1000;
+    font-size: 2rem;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.header-1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.header-1 h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.header-img,
+.header-img-2,
+.header-img-3 {
+    margin-top: 50px;
+}
+.header-img img {
+    max-width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+.header-img-2 img {
+    max-width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+.header-img-3 img {
+    max-width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+.header-img-desc h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.header-img-desc-2 h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+}
+.header-img-desc-3 h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.nav-item a {
+    font-weight: 500;
+}
+
+.pilihan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pilih {
+    margin-top: 30%;
+}
+
+.desc-kd, .desc-ki, .desc-peta-konsep {
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.desc-kd-1 p {
+    font-size: 15px;
+    background: rgb(230,228,255);
+    background: linear-gradient(90deg, rgba(230,228,255,1) 0%, rgba(223,223,255,1) 35%, rgba(185,243,255,1) 100%);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.nav .page-link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 13px;
+    font-size: 14px;
+    text-align: -webkit-center;
+}
+
+.pagination {
+    text-align: center;
+    margin: 30px 30px 60px;
+    user-select: none;
+    display: block;
+    margin-top: 100px;
+    align-items: flex-end;
+
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1/10%);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.active {
+    background: #0ab1ce;
+    border-radius: 20px;
+}
+.disabled {
+    background: transparent;
+}
+
+.previous-page, .next-page {
+    background: #0ab1ce;
+}
+
+.desc-materi h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.desc-materi-page-1 h3{
+    margin-top: 90px;
+    font-size: 20px;
+
+}
+
+.desc-materi-1 p {
+    text-align: justify;
+}
+
+.image-materi-1 img{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}

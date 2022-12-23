@@ -1,0 +1,22 @@
+.article-quiz h4 {
+    margin: 10px 0px;
+}
+
+.article-quiz input {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-button-content {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    padding: 10px;
+}
